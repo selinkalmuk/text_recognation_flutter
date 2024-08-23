@@ -1,0 +1,272 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.final_project_summer"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\selin\AndroidStudioProjects\final_project_summer\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\selin\AndroidStudioProjects\final_project_summer\android\app\src\debug\AndroidManifest.xml:6:22-64
+16
+17    <permission
+17-->[androidx.core:core:1.13.1] C:\Users\selin\.gradle\caches\transforms-3\2f6bc1e98ea672b50ba00d436d171090\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.final_project_summer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.13.1] C:\Users\selin\.gradle\caches\transforms-3\2f6bc1e98ea672b50ba00d436d171090\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.13.1] C:\Users\selin\.gradle\caches\transforms-3\2f6bc1e98ea672b50ba00d436d171090\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.final_project_summer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+21-->[androidx.core:core:1.13.1] C:\Users\selin\.gradle\caches\transforms-3\2f6bc1e98ea672b50ba00d436d171090\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.13.1] C:\Users\selin\.gradle\caches\transforms-3\2f6bc1e98ea672b50ba00d436d171090\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+22    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\selin\.gradle\caches\transforms-3\865800f069935b874f356d17af4d45b6\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+23-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\selin\.gradle\caches\transforms-3\865800f069935b874f356d17af4d45b6\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+24
+25    <application
+26        android:name="android.app.Application"
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.13.1] C:\Users\selin\.gradle\caches\transforms-3\2f6bc1e98ea672b50ba00d436d171090\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+30        android:label="final_project_summer" >
+31        <activity
+32            android:name="com.example.final_project_summer.MainActivity"
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34            android:exported="true"
+35            android:hardwareAccelerated="true"
+36            android:launchMode="singleTop"
+37            android:theme="@style/LaunchTheme"
+38            android:windowSoftInputMode="adjustResize" >
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+47                android:name="io.flutter.embedding.android.NormalTheme"
+48                android:resource="@style/NormalTheme" />
+49
+50            <intent-filter>
+51                <action android:name="android.intent.action.MAIN" />
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+54            </intent-filter>
+55        </activity>
+56        <!--
+57             Don't delete the meta-data below.
+58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+59        -->
+60        <meta-data
+61            android:name="flutterEmbedding"
+62            android:value="2" />
+63
+64        <provider
+64-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-19:20
+65            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+65-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-82
+66            android:authorities="com.example.final_project_summer.flutter.image_provider"
+66-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-74
+67            android:exported="false"
+67-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+68            android:grantUriPermissions="true" >
+68-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-47
+69            <meta-data
+69-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-18:75
+70                android:name="android.support.FILE_PROVIDER_PATHS"
+70-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+71                android:resource="@xml/flutter_image_picker_file_paths" />
+71-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-72
+72        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+73        <service
+73-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33:19
+74            android:name="com.google.android.gms.metadata.ModuleDependencies"
+74-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-78
+75            android:enabled="false"
+75-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+76            android:exported="false" >
+76-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+77            <intent-filter>
+77-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-28:29
+78                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+78-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-94
+78-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-91
+79            </intent-filter>
+80
+81            <meta-data
+81-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:36
+82                android:name="photopicker_activity:0:required"
+82-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-63
+83                android:value="" />
+83-->[:image_picker_android] C:\Users\selin\AndroidStudioProjects\final_project_summer\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-33
+84        </service>
+85        <service
+85-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\selin\.gradle\caches\transforms-3\a4c6042f0a50e17087d6b19248e1e22d\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:9:9-15:19
+86            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+86-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\selin\.gradle\caches\transforms-3\a4c6042f0a50e17087d6b19248e1e22d\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:10:13-91
+87            android:directBootAware="true"
+87-->[com.google.mlkit:common:18.8.0] C:\Users\selin\.gradle\caches\transforms-3\5b95f52d7cc0333db011da475d818be0\transformed\jetified-common-18.8.0\AndroidManifest.xml:17:13-43
+88            android:exported="false" >
+88-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\selin\.gradle\caches\transforms-3\a4c6042f0a50e17087d6b19248e1e22d\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:11:13-37
+89            <meta-data
+89-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\selin\.gradle\caches\transforms-3\a4c6042f0a50e17087d6b19248e1e22d\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:12:13-14:85
+90                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+90-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\selin\.gradle\caches\transforms-3\a4c6042f0a50e17087d6b19248e1e22d\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:13:17-114
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\selin\.gradle\caches\transforms-3\a4c6042f0a50e17087d6b19248e1e22d\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:14:17-82
+92            <meta-data
+92-->[com.google.mlkit:vision-common:17.3.0] C:\Users\selin\.gradle\caches\transforms-3\66bd106c250be9f02190d447f7a4703c\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+93                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+93-->[com.google.mlkit:vision-common:17.3.0] C:\Users\selin\.gradle\caches\transforms-3\66bd106c250be9f02190d447f7a4703c\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.mlkit:vision-common:17.3.0] C:\Users\selin\.gradle\caches\transforms-3\66bd106c250be9f02190d447f7a4703c\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+95            <meta-data
+95-->[com.google.mlkit:common:18.8.0] C:\Users\selin\.gradle\caches\transforms-3\5b95f52d7cc0333db011da475d818be0\transformed\jetified-common-18.8.0\AndroidManifest.xml:20:13-22:85
+96                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+96-->[com.google.mlkit:common:18.8.0] C:\Users\selin\.gradle\caches\transforms-3\5b95f52d7cc0333db011da475d818be0\transformed\jetified-common-18.8.0\AndroidManifest.xml:21:17-120
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.mlkit:common:18.8.0] C:\Users\selin\.gradle\caches\transforms-3\5b95f52d7cc0333db011da475d818be0\transformed\jetified-common-18.8.0\AndroidManifest.xml:22:17-82
+98        </service>
+99
+100        <provider
+100-->[com.google.mlkit:common:18.8.0] C:\Users\selin\.gradle\caches\transforms-3\5b95f52d7cc0333db011da475d818be0\transformed\jetified-common-18.8.0\AndroidManifest.xml:9:9-13:38
+101            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+101-->[com.google.mlkit:common:18.8.0] C:\Users\selin\.gradle\caches\transforms-3\5b95f52d7cc0333db011da475d818be0\transformed\jetified-common-18.8.0\AndroidManifest.xml:10:13-78
+102            android:authorities="com.example.final_project_summer.mlkitinitprovider"
+102-->[com.google.mlkit:common:18.8.0] C:\Users\selin\.gradle\caches\transforms-3\5b95f52d7cc0333db011da475d818be0\transformed\jetified-common-18.8.0\AndroidManifest.xml:11:13-69
+103            android:exported="false"
+103-->[com.google.mlkit:common:18.8.0] C:\Users\selin\.gradle\caches\transforms-3\5b95f52d7cc0333db011da475d818be0\transformed\jetified-common-18.8.0\AndroidManifest.xml:12:13-37
+104            android:initOrder="99" />
+104-->[com.google.mlkit:common:18.8.0] C:\Users\selin\.gradle\caches\transforms-3\5b95f52d7cc0333db011da475d818be0\transformed\jetified-common-18.8.0\AndroidManifest.xml:13:13-35
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\selin\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\selin\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\selin\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\selin\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+110
+111        <meta-data
+111-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\selin\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+112            android:name="com.google.android.gms.version"
+112-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\selin\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\selin\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+114
+115        <uses-library
+115-->[androidx.window:window:1.2.0] C:\Users\selin\.gradle\caches\transforms-3\eca96a3fbf45ee829c50bc4036651c65\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+116            android:name="androidx.window.extensions"
+116-->[androidx.window:window:1.2.0] C:\Users\selin\.gradle\caches\transforms-3\eca96a3fbf45ee829c50bc4036651c65\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+117            android:required="false" />
+117-->[androidx.window:window:1.2.0] C:\Users\selin\.gradle\caches\transforms-3\eca96a3fbf45ee829c50bc4036651c65\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+118        <uses-library
+118-->[androidx.window:window:1.2.0] C:\Users\selin\.gradle\caches\transforms-3\eca96a3fbf45ee829c50bc4036651c65\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+119            android:name="androidx.window.sidecar"
+119-->[androidx.window:window:1.2.0] C:\Users\selin\.gradle\caches\transforms-3\eca96a3fbf45ee829c50bc4036651c65\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+120            android:required="false" />
+120-->[androidx.window:window:1.2.0] C:\Users\selin\.gradle\caches\transforms-3\eca96a3fbf45ee829c50bc4036651c65\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+121
+122        <provider
+122-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\selin\.gradle\caches\transforms-3\6618b146e7ec5ffdf293e19923215054\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+123            android:name="androidx.startup.InitializationProvider"
+123-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\selin\.gradle\caches\transforms-3\6618b146e7ec5ffdf293e19923215054\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+124            android:authorities="com.example.final_project_summer.androidx-startup"
+124-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\selin\.gradle\caches\transforms-3\6618b146e7ec5ffdf293e19923215054\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+125            android:exported="false" >
+125-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\selin\.gradle\caches\transforms-3\6618b146e7ec5ffdf293e19923215054\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+126            <meta-data
+126-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\selin\.gradle\caches\transforms-3\6618b146e7ec5ffdf293e19923215054\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\selin\.gradle\caches\transforms-3\6618b146e7ec5ffdf293e19923215054\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+128                android:value="androidx.startup" />
+128-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\selin\.gradle\caches\transforms-3\6618b146e7ec5ffdf293e19923215054\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+129            <meta-data
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+130                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+131                android:value="androidx.startup" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+132        </provider>
+133
+134        <receiver
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+135            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+136            android:directBootAware="false"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+137            android:enabled="true"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+138            android:exported="true"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+139            android:permission="android.permission.DUMP" >
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+141                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+144                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+147                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+150                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\selin\.gradle\caches\transforms-3\14d836f9dcb26fa6f55a1bd0397d99b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+151            </intent-filter>
+152        </receiver>
+153
+154        <service
+154-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\selin\.gradle\caches\transforms-3\865800f069935b874f356d17af4d45b6\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+155            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+155-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\selin\.gradle\caches\transforms-3\865800f069935b874f356d17af4d45b6\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+156            android:exported="false" >
+156-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\selin\.gradle\caches\transforms-3\865800f069935b874f356d17af4d45b6\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+157            <meta-data
+157-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\selin\.gradle\caches\transforms-3\865800f069935b874f356d17af4d45b6\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+158                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+158-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\selin\.gradle\caches\transforms-3\865800f069935b874f356d17af4d45b6\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+159                android:value="cct" />
+159-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\selin\.gradle\caches\transforms-3\865800f069935b874f356d17af4d45b6\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+160        </service>
+161        <service
+161-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\selin\.gradle\caches\transforms-3\8a86750eba43ba46ae6e646b43a84835\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+162            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+162-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\selin\.gradle\caches\transforms-3\8a86750eba43ba46ae6e646b43a84835\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+163            android:exported="false"
+163-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\selin\.gradle\caches\transforms-3\8a86750eba43ba46ae6e646b43a84835\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+164            android:permission="android.permission.BIND_JOB_SERVICE" >
+164-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\selin\.gradle\caches\transforms-3\8a86750eba43ba46ae6e646b43a84835\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+165        </service>
+166
+167        <receiver
+167-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\selin\.gradle\caches\transforms-3\8a86750eba43ba46ae6e646b43a84835\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+168            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+168-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\selin\.gradle\caches\transforms-3\8a86750eba43ba46ae6e646b43a84835\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+169            android:exported="false" />
+169-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\selin\.gradle\caches\transforms-3\8a86750eba43ba46ae6e646b43a84835\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+170    </application>
+171
+172</manifest>
