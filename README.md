@@ -21,4 +21,4 @@ To get started with the project, follow these steps:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/selinkalmuk/text_recognation_flutter.git
-cd license-plate-recognition
+
